@@ -158,6 +158,7 @@ function search() {
 let solution=search();
 if (solution){
   solution.forEach(e => console.log("("+e.x +"," +e.y+"),"))
+  console.log("Number of steps: "+ solution.length)
 }else {
   console.log("no solution possible")
 }
